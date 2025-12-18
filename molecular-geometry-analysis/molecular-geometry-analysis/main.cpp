@@ -13,5 +13,7 @@ int main(int argc, const char * argv[]) {
     acetaldehyde.print_geom();
     acetaldehyde.compute_distances();
     acetaldehyde.print_distance_matrix();
+    acetaldehyde.compute_angles();
+    acetaldehyde.print_angle_matrix();
     return EXIT_SUCCESS;
 }
